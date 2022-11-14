@@ -1,0 +1,94 @@
+.fondobi {
+    background-image: url(im13.jpg);
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    padding: 2px;
+    margin: 28px;
+    color: #ffffff;
+}
+
+.fondo {
+    background-image: url(im5.jpg);
+}
+
+.fondo2 {
+    background-image: url(im14.jpg);
+}
+
+.fondo3 {
+    background-image: url(gam1.jpg);
+}
+
+.gal {
+    color: aliceblue;
+}
+
+
+/*FORMULARIO*/
+
+form {
+    background: rgba(152, 214, 193, 0.4);
+    text-align: justify;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+form label {
+    color: black;
+    font-weight: bold;
+}
+
+
+/*foder*/
+
+.parrafo {
+    background: rgba(0, 0, 0, 0.658);
+    text-align: justify;
+    max-width: 1500px 1px;
+    margin: auto;
+    padding: 30px 50px;
+    margin-top: 30px;
+}
+
+.pie {
+    background-color: rgb(22, 20, 20);
+}
+
+
+/*hoobies*/
+
+.hoobi {
+    background: rgba(0, 0, 0, 0.658);
+    text-align: justify;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.ho2,
+ol {
+    color: rgb(255, 255, 255);
+}
+
+
+/*pantalla*/
+
+@media only screen and (max-width: 633px) {
+    p {
+        font-size: 10px;
+    }
+}
